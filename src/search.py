@@ -53,7 +53,7 @@ def configurate_database_vectorstore(embeddings):
 
 def search_for_similarity(store, query):
     """Busca documentos similares usando similarity search com scores."""
-    results = store.similarity_search_with_score(query, k=5)
+    results = store.similarity_search_with_score(query, k=10)
 
     return results
 
