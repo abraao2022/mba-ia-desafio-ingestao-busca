@@ -251,7 +251,7 @@ splits = RecursiveCharacterTextSplitter(
 Edite [src/search.py](src/search.py#L56):
 
 ```python
-results = store.similarity_search_with_score(query, k=5)  # Altere k
+results = store.similarity_search_with_score(query, k=10)  # Altere k (o desafio exige k=10)
 ```
 
 ### Usar Google Gemini ao invés de OpenAI
